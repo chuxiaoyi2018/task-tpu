@@ -1,3 +1,10 @@
+#### Quick Start
+```
+cd compile
+python3 export_onnx.py
+sh compile.sh
+```
+
 #### 第一处修改
 transformers/models/marian/modeling_marian.py 第465行
 ```
