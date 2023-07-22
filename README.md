@@ -18,6 +18,8 @@
 
 |比赛                       |前期baseline        |中期赛题测评、选手答疑 |后期审核、答辩与复现 |参赛人数 |自我评分    |
 |:-                         |:-                  |:-                  |:-                  |        |          |
+|CCF挑战赛          |           |           |:white\_check\_mark:|   -    |    3      |
+|AI算法创新赛          |           |:white\_check\_mark:|:white\_check\_mark:|    -   |    4      |
 |第一届AI应用挑战赛          |:white\_check\_mark:|:white\_check\_mark:|:white\_check\_mark:|    52   |    4      |
 |CAAI-BDSC 2023             |:white\_check\_mark:|:white\_check\_mark:|:white\_check\_mark:|    141 |    4      |
 |第二届AI应用挑战赛          |:white\_check\_mark:|:white\_check\_mark:|:white\_check\_mark:|    40   |    3      |
