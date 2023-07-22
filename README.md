@@ -14,7 +14,6 @@
 |market_bot_R50             |:white\_check\_mark:|:white\_check\_mark:|:white\_check\_mark:|     4     |
 |gpt2                       |:white\_check\_mark:|:white\_check\_mark:|                    |      3    |
 |chatglm                    |:white\_check\_mark:|:white\_check\_mark:|                    |       3   |
-          |
 
 |比赛                       |前期baseline        |中期赛题测评、选手答疑 |后期审核、答辩与复现 |参赛人数 |自我评分    |
 |:-                         |:-                  |:-                  |:-                  |:-     |:-          |
