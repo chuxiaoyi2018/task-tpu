@@ -15,6 +15,11 @@
 |gpt2                       |:white\_check\_mark:|:white\_check\_mark:|                    |      3    |
 |chatglm                    |:white\_check\_mark:|:white\_check\_mark:|                    |       3   |
 
+|比赛                 |是否解决            |自我评分    |
+|:-                  |:-                  |:-         |
+|北理                |:white\_check\_mark:|3         |
+|卓视                |:white\_check\_mark:|3         |
+
 |比赛                       |前期baseline        |中期赛题测评、选手答疑 |后期审核、答辩与复现 |参赛人数 |自我评分    |
 |:-                         |:-                  |:-                  |:-                  |:-     |:-          |
 |CCF挑战赛                   |           |           |:white\_check\_mark:|   -    |    3      |
