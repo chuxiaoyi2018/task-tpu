@@ -19,8 +19,8 @@ model_deploy.py \
 --model unet_scale0.5_f32.bmodel;
 
 run_calibration.py unet_scale0.5.mlir \
-   --dataset ../../data/ \
-   --input_num 50 \
+   --dataset ../../../data/caliset \
+   --input_num 1 \
    -o unet_scale0.5_cali_table
 
 model_deploy.py \
