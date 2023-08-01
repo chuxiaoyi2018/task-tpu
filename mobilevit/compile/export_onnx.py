@@ -7,21 +7,11 @@
 # third-party components.
 #
 # ==============================================================================
-
 import os
-import datetime
-import math
-import unittest
 import torch
-import random
-import sys
 from transformers import MobileViTFeatureExtractor, MobileViTForImageClassification
 from PIL import Image
-import requests
-import pdb
 import numpy as np
-import functools
-import operator
 
 MODEL_PATH = "apple/mobilevit-small"
 folder = "./tmp"
