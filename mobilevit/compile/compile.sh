@@ -22,16 +22,19 @@ model_deploy.py \
 
 run_calibration.py $model.mlir \
    --dataset ../../../data/caliset \
-   --input_num 20 \
+   --input_num 50 \
    -o $model\_cali_table
 
-run_qtable.py $model.mlir \
-    --dataset ../../../data/caliset \
-    --calibration_table $model\_cali_table \
-    --chip bm1684x \
-    --min_layer_cos 0.8 \
-    --expected_cos 0.8 \
-    -o $model\_qtable
+run_sensitive_layer.py $model.mlir \
+   --dataset ../../../data/caliset \
+   --input_num 25 \
+   --inference_num 15 \
+   --max_float_layers 40 \
+   --expected_cos 0.90 \
+   --calibration_table $model\_cali_table \
+   --chip bm1684x\
+   -o $model\_qtable
+
 
 model_deploy.py \
     --mlir $model.mlir \

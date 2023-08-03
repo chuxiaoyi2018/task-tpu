@@ -1,7 +1,7 @@
-# genetated time: 2023-07-31 14:03:21.973365
-# sample number: 30
+# genetated time: 2023-08-03 01:35:24.132697
+# sample number: 15
 # chip: bm1684x  mix_mode: F16
-# number of F16 layer: 25
+# number of F16 layer: 40
 ###
 # op_name   quantize_mode
 /mobilevit/encoder/layer.0/layer.0/expand_1x1/activation/Mul_output_0_Mul F16
@@ -9,23 +9,38 @@
 /mobilevit/encoder/layer.0/layer.0/conv_3x3/convolution/Conv_output_0_Conv F16
 /mobilevit/encoder/layer.1/layer.0/expand_1x1/activation/Mul_output_0_Mul F16
 /mobilevit/encoder/layer.1/layer.0/conv_3x3/convolution/Conv_output_0_Conv F16
-/mobilevit/encoder/layer.0/layer.0/conv_3x3/activation/Mul_output_0_Mul F16
 /mobilevit/encoder/layer.1/layer.0/expand_1x1/convolution/Conv_output_0_Conv F16
-/mobilevit/encoder/layer.4/transformer/layer.1/intermediate/intermediate_act_fn/Mul_output_0_Mul F16
 /mobilevit/conv_stem/activation/Mul_output_0_Mul F16
 /mobilevit/encoder/layer.4/transformer/layer.1/output/dense/Add_output_0_Add F16
+/mobilevit/encoder/layer.4/transformer/layer.1/intermediate/intermediate_act_fn/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.4/conv_projection/activation/Mul_output_0_Mul F16
 /mobilevit/conv_stem/convolution/Conv_output_0_Conv F16
 /mobilevit/encoder/layer.1/layer.1/conv_3x3/convolution/Conv_output_0_Conv F16
 /mobilevit/encoder/layer.1/layer.1/expand_1x1/activation/Mul_output_0_Mul F16
-/mobilevit/encoder/layer.4/downsampling_layer/expand_1x1/activation/Mul_output_0_Mul F16
-/mobilevit/encoder/layer.4/downsampling_layer/conv_3x3/convolution/Conv_output_0_Conv F16
-/mobilevit/ReduceMean_output_0_ReduceMean F16
-/mobilevit/encoder/layer.2/downsampling_layer/expand_1x1/activation/Mul_output_0_Mul F16
-/mobilevit/encoder/layer.4/transformer/layer.2/output/Add_output_0_Add F16
-/mobilevit/encoder/layer.4/conv_projection/activation/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.0/layer.0/conv_3x3/activation/Mul_output_0_Mul F16
 /mobilevit/encoder/layer.4/transformer/layer.2/output/dense/Add_output_0_Add F16
 /mobilevit/encoder/layer.4/transformer/layer.2/intermediate/intermediate_act_fn/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.4/downsampling_layer/expand_1x1/activation/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.2/downsampling_layer/expand_1x1/activation/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.4/downsampling_layer/conv_3x3/convolution/Conv_output_0_Conv F16
 /mobilevit/encoder/layer.3/downsampling_layer/reduce_1x1/convolution/Conv_output_0_Conv F16
-/mobilevit/encoder/layer.3/downsampling_layer/conv_3x3/activation/Mul_output_0_Mul F16
-/mobilevit/encoder/layer.3/downsampling_layer/conv_3x3/convolution/Conv_output_0_Conv F16
+/mobilevit/encoder/layer.4/transformer/layer.2/output/Add_output_0_Add F16
+/mobilevit/encoder/layer.1/layer.1/expand_1x1/convolution/Conv_output_0_Conv F16
 /mobilevit/encoder/layer.4/transformer/layer.0/Add_output_0_Add F16
+/mobilevit/encoder/layer.3/downsampling_layer/conv_3x3/activation/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.4/downsampling_layer/reduce_1x1/convolution/Conv_output_0_Conv F16
+/mobilevit/encoder/layer.3/downsampling_layer/conv_3x3/convolution/Conv_output_0_Conv F16
+/mobilevit/encoder/layer.4/transformer/layer.0/output/Add_output_0_Add F16
+/mobilevit/encoder/layer.1/layer.0/reduce_1x1/convolution/Conv_output_0_Conv F16
+/mobilevit/encoder/layer.3/downsampling_layer/expand_1x1/activation/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.4/transformer/layer.1/Add_output_0_Add F16
+/mobilevit/encoder/layer.2/downsampling_layer/conv_3x3/convolution/Conv_output_0_Conv F16
+/mobilevit/encoder/layer.2/transformer/layer.1/attention/attention/MatMul_1_output_0_MatMul F16
+/mobilevit/encoder/layer.4/downsampling_layer/conv_3x3/activation/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.1/layer.2/expand_1x1/activation/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.1/layer.0/conv_3x3/activation/Mul_output_0_Mul F16
+/mobilevit/encoder/layer.4/fusion/convolution/Conv_output_0_Conv F16
+/mobilevit/encoder/layer.1/layer.2/conv_3x3/convolution/Conv_output_0_Conv F16
+/mobilevit/encoder/layer.4/Transpose_output_0_Transpose F16
+/mobilevit/encoder/layer.4/Transpose_1_output_0_Transpose F16
+/mobilevit/encoder/layer.4/conv_1x1/convolution/Conv_output_0_Conv F16
