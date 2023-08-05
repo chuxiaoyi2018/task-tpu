@@ -234,12 +234,12 @@ test_net_with_mask()
 if not os.path.exists(folder):
     os.makedirs(folder)
 
-#export models
+# export models
 num_layers = 28
 for i in range(num_layers):
     print("convert_block_{}".format(i))
     convert_glm_block_cache(i)
     convert_glm_block(i)
-#convert_embedding()
-#convert_lm_head()
+convert_embedding()
+convert_lm_head()
 
