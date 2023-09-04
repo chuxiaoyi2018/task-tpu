@@ -1,0 +1,46 @@
+ir_version: 8
+producer_name: "pytorch"
+producer_version: "1.13.1"
+graph {
+  node {
+    input: "model.transformer.word_embeddings.weight"
+    input: "hidden_states"
+    output: "logits"
+    name: "/word_embeddings/Gather"
+    op_type: "Gather"
+  }
+  name: "torch_jit"
+  input {
+    name: "hidden_states"
+    type {
+      tensor_type {
+        elem_type: 7
+        shape {
+          dim {
+            dim_value: 64
+          }
+        }
+      }
+    }
+  }
+  output {
+    name: "logits"
+    type {
+      tensor_type {
+        elem_type: 1
+        shape {
+          dim {
+            dim_value: 64
+          }
+          dim {
+            dim_value: 4096
+          }
+        }
+      }
+    }
+  }
+}
+opset_import {
+  domain: ""
+  version: 15
+}
